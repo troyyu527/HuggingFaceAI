@@ -1,0 +1,31 @@
+[project]
+name = "persona"
+version = "1.0.0"
+description = "Troy Yu's AI persona: RAG over a private knowledge base, OpenRouter free models, Gradio UI on a Hugging Face Space."
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "gradio>=5,<6",
+    "huggingface-hub>=1.33.0",
+    "langchain-core>=1.6.12",
+    "langchain-huggingface>=1.2.3",
+    "langchain-openai>=1.7.2",
+    "openai>=3.32.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.1.0",
+    "spaces>=0.51.3",
+    "torch==2.13.0",
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.64.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
