@@ -21,6 +21,8 @@ knowledge base of his career.
 
 **Try it:** https://troy0527-troy-ai-persona.hf.space · Portfolio: https://troyyu527.github.io/ReactWebsite
 
+![The AI persona on its Hugging Face Space: chat box, suggested recruiter questions and the model in use (gemini-3.5-flash)](docs/images/screenshot.png)
+
 > It's an AI assistant: answers come from Troy's knowledge base, but please verify important details with Troy
 > (troy0527@gmail.com).
 
